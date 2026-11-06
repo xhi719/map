@@ -12,7 +12,7 @@ npm install
 npm run build:assets      # (선택) 지도·텍스처·오디오 에셋 재생성. 결과물은 이미 커밋되어 있음
                           #   (원본 데이터 다운로드 → 벡터 레이어 → 지형 합성, 약 7분, Python3 + numpy + Pillow 필요)
 npm run studio            # Remotion Studio 미리보기
-npm run render            # → output/trailer.mp4
+npm run render            # → out/trailer_master.mp4 (CRF 18 마스터) → output/trailer.mp4 (7 Mbps 2-pass 배포본)
 npm run render:root       # → output/trailer.mp4 + /output/trailer.mp4
 ```
 
