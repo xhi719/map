@@ -50,7 +50,7 @@ export const EndingScene: React.FC = () => {
       <MapStage camera={CAMERAS.ending} clouds={0.5} dim={dim} screen={<><TitleCard /><LightSweep start={60} duration={60} strength={0.12} /></>}>
         <PolityHighlight id="GER" color={THEME.alert} start={0} drawFrames={1} fill={0.25} width={1.2} />
         <PolityHighlight id="ITA" color={THEME.alert} start={0} drawFrames={1} fill={0.2} width={1.2} />
-        <PolityHighlight id="JAP" color={THEME.alert} start={0} drawFrames={1} fill={0.25} width={1.2} />
+        <PolityHighlight id="JAPAN_SPHERE" color={THEME.alert} start={0} drawFrames={1} fill={0.25} width={1.2} />
       </MapStage>
       <AbsoluteFill style={{background: '#000', opacity: out}} />
     </AbsoluteFill>

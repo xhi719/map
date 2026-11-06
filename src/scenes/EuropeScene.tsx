@@ -37,6 +37,8 @@ export const EuropeScene: React.FC = () => (
     <MapLabel at={[-3.6, 40.0]} text="SPAIN" start={170} size={15} />
     <MapLabel at={[14.6, 47.55]} text="AUSTRIA" start={180} size={11} />
     <MapLabel at={[16.8, 49.4]} text="CZECHOSLOVAKIA" start={185} size={11} />
+    <MapLabel at={[18.75, 54.45]} text="DANZIG" start={192} size={8} />
+    <MapLabel at={[21.5, 54.6]} text="EAST PRUSSIA" start={196} size={8} />
 
     <PulseMarker at={LOC.berlin} start={110} color={THEME.alert} size={10} />
     <PulseMarker at={LOC.paris} start={125} color={THEME.cold} size={8} shape="square" />

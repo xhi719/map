@@ -24,7 +24,7 @@ export const SCENES: SceneConfig[] = [
   {id: 'intro', duration: 270, out: {kind: 'lightSweep', frames: 26}},
   {id: 'europe', duration: 300, out: {kind: 'cut', frames: 0}},
   {id: 'iberia', duration: 210, out: {kind: 'mapOverlay', frames: 28}},
-  {id: 'eastAsia', duration: 330, out: {kind: 'uiInterface', frames: 24}},
+  {id: 'eastAsia', duration: 390, out: {kind: 'uiInterface', frames: 24}},
   {id: 'africa', duration: 330, out: {kind: 'dip', frames: 30}},
   {id: 'americas', duration: 360, out: {kind: 'slide', frames: 22}},
   {id: 'montage', duration: 246, out: {kind: 'lightSweep', frames: 22}},
@@ -75,10 +75,11 @@ export const CAMERAS: Record<Exclude<SceneId, 'montage'>, CameraPath> & {montage
   // 4. Lateral pan (W→E) across Asia, then close-up on Manchuria/Korea with a slow yaw.
   eastAsia: {
     keys: [
-      {at: 0, center: [72, 40], zoom: 0.85, tilt: 34, rotate: 0},
-      {at: 150, center: [118, 38], zoom: 0.95, tilt: 34, rotate: 0, ease: 'inOut'},
-      {at: 300, center: [126, 40.5], zoom: 2.0, tilt: 46, rotate: 12, ease: 'inOut'},
-      {at: 330, center: [127, 40.8], zoom: 2.15, tilt: 47, rotate: 14, ease: 'linear'},
+      {at: 0, center: [86, 36], zoom: 0.95, tilt: 36, rotate: 0},
+      {at: 150, center: [110, 33], zoom: 1.05, tilt: 38, rotate: 0, ease: 'inOut'},
+      {at: 225, center: [113, 35.5], zoom: 1.2, tilt: 42, rotate: 4, ease: 'glide'},
+      {at: 360, center: [126, 40.5], zoom: 2.0, tilt: 46, rotate: 12, ease: 'inOut'},
+      {at: 390, center: [127, 40.8], zoom: 2.12, tilt: 47, rotate: 14, ease: 'linear'},
     ],
   },
   // 5. Vertical move N→S down the Red Sea, push into Ethiopia, then pull back to continental view.

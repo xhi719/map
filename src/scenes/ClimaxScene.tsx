@@ -33,7 +33,7 @@ export const ClimaxScene: React.FC = () => (
     {/* Powers */}
     <PolityHighlight id="GER" color={THEME.alert} start={0} drawFrames={40} fill={0.22} />
     <PolityHighlight id="ITA" color={THEME.alert} start={20} drawFrames={40} fill={0.2} />
-    <PolityHighlight id="JAP" color={THEME.alert} start={110} drawFrames={40} fill={0.22} hatch />
+    <PolityHighlight id="JAPAN_SPHERE" color={THEME.alert} start={110} drawFrames={40} fill={0.22} hatch />
     <PolityHighlight id="SOV" color={THEME.cold} start={60} drawFrames={80} fill={0.06} width={1.4} pulse={false} />
     <PolityHighlight id="GBR" color={THEME.cold} start={200} drawFrames={80} fill={0.05} width={1.2} pulse={false} />
     <PolityHighlight id="FRA" color={THEME.cold} start={210} drawFrames={80} fill={0.05} width={1.2} pulse={false} />

@@ -15,7 +15,7 @@ const SHOTS: React.ReactNode[] = [
     <MapLabel at={[11.6, 51.9]} text="GERMANY" start={4} size={20} />
   </>,
   <>
-    <PolityHighlight id="JAP" color={THEME.alert} start={0} drawFrames={30} fill={0.2} hatch />
+    <PolityHighlight id="JAPAN_SPHERE" color={THEME.alert} start={0} drawFrames={30} fill={0.2} hatch />
     <PulseMarker at={LOC.tokyo} start={2} color={THEME.alert} size={12} />
     <MapLabel at={[138.4, 37.6]} text="JAPAN" start={4} size={20} angle={-40} />
   </>,

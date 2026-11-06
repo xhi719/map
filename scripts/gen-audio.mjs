@@ -89,7 +89,7 @@ function reverb(x, mix = 0.3, size = 1) {
 }
 
 // --------------------------------------------------------------- the score
-const S = {europe: 8.13, iberia: 18.13, eastAsia: 24.2, africa: 34.4, americas: 44.4, montage: 55.67, climax: 63.13, ending: 73.8, title: 74.8, end: 82.8};
+const S = {europe: 8.13, iberia: 18.13, eastAsia: 24.2, africa: 36.4, americas: 46.4, montage: 57.67, climax: 65.13, ending: 75.8, title: 76.8, end: 84.8};
 const DUR = S.end + 0.2;
 const N = Math.round(DUR * SR);
 const mix = new Float32Array(N);

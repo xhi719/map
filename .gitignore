@@ -3,3 +3,5 @@ out/
 output/*.png
 output/*.jpg
 .DS_Store
+data/cache/
+__pycache__/
