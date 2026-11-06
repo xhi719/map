@@ -1,0 +1,33 @@
+{
+  "name": "iron-meridian-1936-trailer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinematic 1936 grand-strategy world map trailer built with Remotion",
+  "scripts": {
+    "build:map": "node scripts/build-map.mjs",
+    "build:audio": "node scripts/gen-audio.mjs",
+    "build:assets": "npm run build:map && npm run build:audio",
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts Trailer output/still.png --frame=600",
+    "render": "remotion render src/index.ts Trailer output/trailer.mp4",
+    "render:root": "npm run render && mkdir -p /output && cp output/trailer.mp4 /output/trailer.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/transitions": "^4.0.541",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "d3-geo": "^3.1.2",
+    "typescript": "^7.0.2"
+  }
+}

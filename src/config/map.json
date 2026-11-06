@@ -1,0 +1,59 @@
+{
+  "comment": "Projection shared by scripts/build-map.mjs and the Remotion app. Equirectangular, cropped in latitude.",
+  "width": 8192,
+  "latTop": 84,
+  "latBottom": -60,
+  "lonLeft": -180,
+  "lonRight": 180,
+  "detailComment": "High-resolution patches rendered from the same vector master and layered over the base raster when the camera is zoomed in.",
+  "detailPatches": [
+    {
+      "id": "europe",
+      "lon": [
+        -12,
+        46
+      ],
+      "lat": [
+        34,
+        63
+      ],
+      "scale": 4
+    },
+    {
+      "id": "eastasia",
+      "lon": [
+        108,
+        146
+      ],
+      "lat": [
+        24,
+        52
+      ],
+      "scale": 4
+    },
+    {
+      "id": "africa",
+      "lon": [
+        22,
+        52
+      ],
+      "lat": [
+        -3,
+        33
+      ],
+      "scale": 4
+    },
+    {
+      "id": "useast",
+      "lon": [
+        -90,
+        -62
+      ],
+      "lat": [
+        30,
+        48
+      ],
+      "scale": 4
+    }
+  ]
+}
